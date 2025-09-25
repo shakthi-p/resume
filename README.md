@@ -37,6 +37,7 @@ cd resume
 npm install
 npm start
 * Opens [http://localhost:3000](http://localhost:3000)
+* http://192.168.29.150:3000
 * Hot reload for live updates
 
 **Build for production:**
