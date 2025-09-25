@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Shakthi P - React Resume Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **React-based professional resume** showcasing profile, skills, education, experience, and projects. Styled with a **dark/professional theme** and fully responsive.
 
-## Available Scripts
+##  Tech Stack
+- **Frontend:** React.js, JSX, JavaScript (ES6+), HTML5, CSS3  
+- **Styling:** CSS Grid & Flexbox, custom CSS variables, responsive media queries  
+- **Tools:** Node.js, npm, Create React App, Git/GitHub
+- 
+##  Features
+- Sidebar/Profile Card: name, role, skills, contact links (email, LinkedIn, GitHub)  
+- Main Content: Profile, Experience, Projects, Education  
+- PDF Download for resume  
+- Project Highlights:  
+  - QRApp – Android QR Code generator (Java, ZXing)  
+  - Stock Sentiment App – Web app predicting stock sentiment (Python, Flask)  
+  - Detection of Skin Diseases – ML model using Python & Neural Networks  
+- Responsive & interactive design with hover effects  
+- Footer: "Designed by Shakthi"
+- 
+##  How it Works
+- **Components:**  
+  - `ProfileCard` – Sidebar with info & skills  
+  - `Section` – Reusable sections (Education, Projects, Experience)  
+  - `App` – Combines all components  
+- **Styling:**  
+  - Dark navy/blue background (#0f172a)  
+  - Light text (#ffffff), accent blue (#1e40af)  
+  - Shadow and hover effects for interactivity  
+- **Dynamic Display:**  
+  - Skills, projects, experiences hardcoded in JSX for easy updates  
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 Run Locally
+git clone https://github.com/shakthi-p/resume.git
+cd resume
+npm install
+npm start
+* Opens [http://localhost:3000](http://localhost:3000)
+* Hot reload for live updates
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Build for production:**
+npm run build
+* Minified optimized version in `build/` folder
+* Deployable to GitHub Pages, Netlify, Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📄 Expected Output
+* **Sidebar:** Profile picture, Name & Role, Skills, Contact links
+* **Main Content:** Profile description, Experience, Projects, Education
+* **Footer:** "Designed by Shakthi"
 
-### `npm test`
+**Layout Preview:**
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/c456bd2b-294c-40bc-b688-79b545a41917" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
