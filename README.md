@@ -46,7 +46,7 @@ npm run build
 * Deployable to GitHub Pages, Netlify, Vercel
 
 ## 📄 Expected Output
-* **Sidebar:** Profile picture, Name & Role, Skills, Contact links
+* **Sidebar:** Name, Skills, Contact links
 * **Main Content:** Profile description, Experience, Projects, Education
 * **Footer:** "Designed by Shakthi"
 
